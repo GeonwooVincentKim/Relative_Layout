@@ -5,7 +5,7 @@ header {width: 100%; display: flex; flex-direction: column; justify-content: cen
 /* header .header-bar-ui {display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 0px 24px; position: static; width: 720px; height: 800px; left: 180px; top: 0px; flex: none; order: 0; flex-grow: 0; margin: 0px 0px;} */
 .header-bar-ui {display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 0px 24px; position: static; width: 720px; left: 180px; top: 0px; flex: none; order: 0; flex-grow: 0; margin: 0px 0px;}
 
-header .header-menu-select {vertical-align: middle; text-align: left; font-size: 30px; line-height: 20px; color: #020202; font-style: normal; padding-top: 20px;}
+header .header-menu-select {vertical-align: middle; text-align: left; font-size: 30px; line-height: 20px; color: #020202; font-style: normal;}
 header .header-menu-logo {vertical-align: middle; text-align: center;}
 
 .header-menu-select span {font-size: 100%;}
