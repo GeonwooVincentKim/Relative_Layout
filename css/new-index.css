@@ -1,6 +1,10 @@
 *{margin: 0 auto; padding: 0;}
 body {width: 100%; background: #fff; max-width: 600px;}
-header {width: 100%; height: 82px; padding: 30 0px; height: 312px; vertical-align: top;}
+/* header {width: 100%; height: 82px; vertical-align: top; line-height: 16px;} */
+header {width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0px; position: absolute; height: 80px; left: 0px; right: 0px; top: 0px;}
+header .header-bar-ui {display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 0px 24px; position: static; width: 720px; height: 800px; left: 180px; top: 0px; flex: none; order: 0; flex-grow: 0; margin: 0px 0px;}
+/* .header-bar-ui {display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 0px 24px; position: static; width: 720px; left: 180px; top: 0px; flex: none; order: 0; flex-grow: 0; margin: 0px 0px;} */
+
 header .header-menu-select {vertical-align: middle; text-align: left; font-size: 30px; line-height: 20px; color: #020202; font-style: normal; padding-top: 20px;}
 header .header-menu-logo {vertical-align: middle; text-align: center;}
 
