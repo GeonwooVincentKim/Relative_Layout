@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/new-index.css">
 </head>
 <body>
+    <script>
+        // scroll : header style change
+        (function () {
+            window.addEventListener('scroll', function(){
+                const isHeaderOn = document.querySelector('.s-header');
+                document.documentElement.scrollTop > 50 ?  isHeaderOn.classList.add('on') : isHeaderOn.classList.remove('on')
+            });
+        })();
+    </script>
+
     <header>
         <div class="header-menu-select">
-            <img src="" alt="menuSelectImage">
+            <span>&#9776;</span>
         </div>
         <div class="header-menu-logo">
-            <img src="" alt="menuLogoImage">
+            <a href="#"><img src="./resources/img/free-logo.png" alt="menuLogoImage"></a>
         </div>
     </header>
     <main>

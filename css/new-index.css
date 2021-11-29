@@ -1,1 +1,11 @@
 *{margin: 0 auto; padding: 0;}
+body {width: 100%; background: #fff; max-width: 600px;}
+header {width: 100%; height: 82px; padding: 30 0px; height: 312px; vertical-align: top;}
+header .header-menu-select {vertical-align: middle; text-align: left; font-size: 30px; line-height: 20px; color: #020202; font-style: normal; padding-top: 20px;}
+header .header-menu-logo {vertical-align: middle; text-align: center;}
+
+.header-menu-select span {font-size: 100%;}
+.header-menu-logo img {width: 90px; height: 52px;}
+
+main {width: 100%;}
+footer {width: 100%;}
