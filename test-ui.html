@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <style>
+            aside,
+            div,
+            footer,
+            header,
+            nav,
+            section {
+                border: solid 1px black;
+                margin: 5px;
+                font-size: 24px;
+                text-align: center;
+            }
+            nav {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                background-color: yellow;
+            }
+            nav:after {
+                background-color: blue;
+            }
+            
+            main {
+                display: flex;
+            }
+            aside,
+            section {
+                flex-grow: 1;
+                height: 800px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Header</header>
+        <nav>Nav</nav>
+        <div class="topAdd">Ads</div>
+        <div class="title">Title</div>
+        <main>
+            <aside>Sidebar Left</aside>
+            <section>Section</section>
+            <aside>Sidebar Right</aside>
+        </main>
+        <footer>footer</footer>
+    </body>
+</html>
