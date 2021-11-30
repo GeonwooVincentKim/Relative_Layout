@@ -49,11 +49,7 @@ header {
     background-color: #fff;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
 }
-.header-title {
-    text-align: center;
-    align-items: center;
-    border-bottom: 1px solid #ebebeb;
-}
+
 .logo {
     display: inline-block;
     height: 36px;
@@ -61,6 +57,16 @@ header {
 }
 .logo > img {
     height: 36px;
+}
+.header-title {
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+}
+.new-logo {
+    top: 0;
+    display: flex;
+    float: right;
 }
 nav {
     float: right;
