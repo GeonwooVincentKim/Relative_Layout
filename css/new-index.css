@@ -15,7 +15,7 @@ header .header-menu-logo {display: flex; flex-direction: column; align-items: ce
 /* .header-menu-select span {font-size: 100%;} */
 /* .header-menu-logo img {width: 90px; height: 52px;} */
 
-/* .header-bar-ui:before,
+.header-bar-ui:before,
 .header-bar-ui:after{
     content: '';
     position: fixed;
@@ -37,7 +37,7 @@ header .header-menu-logo {display: flex; flex-direction: column; align-items: ce
     border-bottom:1px solid #ebebeb;
     z-index:-1;
     pointer-events: none;
-} */
+}
 
 main {width: 100%;}
 .first-contents {width: 100%; height: 900px;}
