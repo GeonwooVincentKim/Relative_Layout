@@ -49,4 +49,12 @@ then the top position of tag becomes `standard`
 ```
 
 ### fixed
+- Use `Fixed` to set the particular location of tag
+- Even User or Developer `scrolls` to the `left`, or `right`, `top`, `bottom`,
+It just set the particular-location
 
+```css
+div {background: yellow; position: fixed; right: 0;}
+#some-tag-id {background: yellow; position: fixed; right: 0;}
+.some-tag-class {background: yellow; position: fixed; right: 0;}
+```
