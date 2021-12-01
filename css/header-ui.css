@@ -23,16 +23,18 @@ body {-webkit-overflow-scrolling: touch;}
 
 .layout-header-logo {position: absolute; left: 62px; right: 62px; top: 25px; z-index: 1; height: 30px; display: flex; align-items: center; justify-content: center; pointer-events: none;}
 .layout-header-logo > *{pointer-events: auto;}
-.layout-header-logo img {height: 30px;}
+.layout-header-logo img {height: 40px;}
 
-.layout-header-title {position: absolute; display: inline-flex; text-align: center; align-items: center; justify-content: center; vertical-align: middle;}
+.layout-header-title {position: absolute; display: inline-flex; text-align: center; align-items: center; justify-content: center; vertical-align: middle; font-weight: bold; font-weight: 700; font-family: 'Noto Sans KR'; font-size: 17px; line-height: 25px; white-space: nowrap;}
 
 .layout-header-gnb-selector, .layout-header-menu-selector {position: absolute; top: 80px; height: 56px; display: flex; align-items: center;}
 .layout-header-gnb-selector {left: 0;}
-.layout-header-gnb-selector img {width: 45px; height: 30px}
+.layout-header-gnb-selector img {width: 35px; height: 40px}
 .layout-header-gnb-selector .gnb-selector-toggle {position: relative; top: -68px;}
 
-/* .layout-header-menu-selector {} */
+.layout-header-menu-selector {right: 0;}
+.layout-design-guide-user {display: flex; align-items: center; justify-content: center; width: 80px; height: inherit;}
+
 
 /* Main */
 
