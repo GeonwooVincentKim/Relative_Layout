@@ -68,3 +68,35 @@ div {position: -webkit-sticky; position: sticky; top: 4px; background: red;}
 #some-tag-id {position: -webkit-sticky; position: sticky; top: 4px; background: red;}
 .some-tag-class {position: -webkit-sticky; position: sticky; top: 4px; background: red;}
 ```
+
+
+## Pseudo-Element
+- `Pseudo-Element` is a keyword added to a selector that lets you to style a `specific part` of the `elements` selected by a `CSS Selector`
+
+### ::before(:before)
+- Create new `child-element` in front of the `Real-exisitng-tags (Selected CSS Selectors)`
+
+```css
+div {background-color: #cccccc;}
+div:before {position: fixed; top: 0; left: 0; right: 0;}
+
+#some-tag-id {background-color: #cccccc;}
+#some-tag-id:before {position: fixed; top: 0; left: 0; right: 0;}
+
+.some-tag-class {background-color: #cccccc;}
+.some-tag-class:before {position: fixed; top: 0; left: 0; right: 0;}
+```
+
+## ::after(:after)
+- Create new `child-element` behind the `Real-Existing-tags (Selected CSS Selector)`
+
+```css
+div {position: fixed; top: 0; left: 0; right: 0;}
+div:after {top: 50px; height: 1px; background-color: #cccccc;}
+
+#some-tag-id {position: fixed; top: 0; left: 0; right: 0;}
+#some-tag-id:after {top: 50px; height: 1px; background-color: #cccccc;}
+
+.some-tag-class {position: fixed; top: 0; left: 0; right: 0;}
+.some-tag-class:after {top: 50px; height: 1px; background-color: #cccccc;}
+```
