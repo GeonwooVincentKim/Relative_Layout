@@ -58,3 +58,13 @@ div {background: yellow; position: fixed; right: 0;}
 #some-tag-id {background: yellow; position: fixed; right: 0;}
 .some-tag-class {background: yellow; position: fixed; right: 0;}
 ```
+
+### sticky
+- `sticky` change owns value as `relative` and `fixed` when user or developer `scroll` the page
+- When the `Scroll position` reached to a particular-location, it works like using `fixed`
+
+```css
+div {position: -webkit-sticky; position: sticky; top: 4px; background: red;}
+#some-tag-id {position: -webkit-sticky; position: sticky; top: 4px; background: red;}
+.some-tag-class {position: -webkit-sticky; position: sticky; top: 4px; background: red;}
+```
