@@ -36,3 +36,17 @@ div {position: relative; left: 5px;}
 #some-tag-id {position: relative; left: 5px;}
 .some-tag-class {position: relative; left: 5px;}
 ```
+
+### absolute
+- `Relative` move owns the current `position` when it status value is `static`, `absolute` has no attribute, named `static`
+- If current `position` has no attribute `relative`, `absolute`, `fixed`, 
+then the top position of tag becomes `standard`
+
+```css
+#some-tag-id-absolute {background: yellow; position: absolute; right: 0;}
+#some-tag-id-parent {position: relative; width: 100px; height: 100px; background: skyblue;}
+#some-tag-id-child {position: absolute; right: 0;}
+```
+
+### fixed
+
