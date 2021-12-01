@@ -33,9 +33,14 @@ body {-webkit-overflow-scrolling: touch;}
 .layout-header-gnb-selector .gnb-selector-toggle {position: relative; top: -68px;}
 
 .layout-header-menu-selector {right: 0;}
+.layout-design-guide-handler {display: flex; align-items: center; padding-right: 24px;}
+.layout-design-guide-handler > * + * {margin-left: 16px;}
+.layout-header-menu-text { align-items: center; justify-content: center; color: #68c287 !important; font-weight: 700; font-size: 17px; line-height: 25px; white-space: nowrap;}
+.layout-header-menu-icon img {width: 32px; height: 32px; border: 0; vertical-align: center;}
+
 .layout-design-guide-user {display: flex; align-items: center; justify-content: center; width: 80px; height: inherit;}
-
-
+.layout-design-guide-user .user-toggle {display: flex; align-items: center; justify-content: center;}
+.user-toggle .user-image {display: inline-block; width: 32px; height: 32px; font-size: 0; line-height: 0; color: transparent; user-select: none; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
 /* Main */
 
 
