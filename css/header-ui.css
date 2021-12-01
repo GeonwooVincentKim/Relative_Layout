@@ -26,8 +26,11 @@ body {-webkit-overflow-scrolling: touch;}
 .layout-header-logo > *{pointer-events: auto;}
 .layout-header-logo img {height: 30px;}
 
-.layout-header-gnb-selector {position: relative; top: -68px; display: inline-flex; justify-content: center; vertical-align: center;}
+/* .layout-header-gnb-selector {left: -124px; position: relative; top: -68px; display: inline-flex; justify-content: center; vertical-align: center;} */
+.layout-header-gnb-selector, .layout-header-menu-selector {position: absolute; top: 80px; height: 56px; display: flex; align-items: center;}
+.layout-header-gnb-selector {left: 0;}
 .layout-header-gnb-selector img {width: 45px; height: 30px}
+.gnb-selector-toggle {position: relative; top: -68px;}
 
 /* .layout-header-logo img {width: 90px; height: 90px;} */
 /* .layout-header-logo-size {} */
