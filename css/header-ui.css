@@ -32,6 +32,8 @@ body {-webkit-overflow-scrolling: touch;}
 .layout-header-gnb-selector img {width: 45px; height: 30px}
 .layout-header-gnb-selector .gnb-selector-toggle {position: relative; top: -68px;}
 
+.layout-header-menu-selector {}
+
 /* Main */
 
 
