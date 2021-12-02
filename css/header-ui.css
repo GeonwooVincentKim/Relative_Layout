@@ -29,8 +29,10 @@ body {-webkit-overflow-scrolling: touch;}
 
 .layout-header-gnb-selector, .layout-header-menu-selector {position: absolute; top: 80px; height: 56px; display: flex; align-items: center;}
 .layout-header-gnb-selector {left: 0;}
-.layout-header-gnb-selector img {width: 35px; height: 40px}
+.layout-header-gnb-selector img {width: 40px; height: 40px}
 .layout-header-gnb-selector .gnb-selector-toggle {position: relative; top: -68px;}
+.gnb-selector-toggle:hover, .gnb-selector-toggle:active {background-color: rgba(51, 51, 51,0.1);}
+.gnb-btn-icon {position: relative; display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; border-radius: 100%; background-color: rgba(51, 51, 51, 0); transition: background-color .25s cubic-bezier(0.0, 0.0, 0.2, 1);}
 
 .layout-header-menu-selector {right: 0;}
 .layout-design-guide-handler {display: flex; align-items: center; padding-right: 24px;}
