@@ -149,6 +149,7 @@ body {-webkit-overflow-scrolling: touch;}
     font-size: 16px;
     /* font-size: 2.8rem; */
 }
+.nav-grid .nav-grid-items:hover .icon {color: #333;}
 .nav-grid .nav-grid-items.active .icon {
     font-weight: 700;
     letter-spacing: -0.03em;
@@ -161,7 +162,7 @@ body {-webkit-overflow-scrolling: touch;}
     -webkit-animation: zoomIn 0.255s cubic-bezier(0.46, 0.03, 0.21, 0.93);
     animation: zoomIn 0.255s cubic-bezier(0.46, 0.03, 0.21, 0.93);
 }
-.container.theme-dark .wrap {
+/* .container.theme-dark .wrap {
     background: #212121;
 }
 .container.theme-dark .nav-grid .nav-grid-items .icon {
@@ -169,7 +170,7 @@ body {-webkit-overflow-scrolling: touch;}
 }
 .container.theme-dark .nav-grid .nav-grid-items.active .icon {
     color: #f24c5e;
-}
+} */
 @keyframes zoomIn {
     from {
         opacity: 0;
