@@ -2,7 +2,7 @@ $(document).ready(function () {
     $(".nav-grid-items").click(function () {
         $(".grid-item-active").css(
             "animation",
-            "moveActive .455s cubic-bezier(0.46, 0.03, 0.21, 0.93)"
+            // "moveActive .455s cubic-bezier(0.46, 0.03, 0.21, 0.93)"
         );
 
         var index = ($(this).index());
