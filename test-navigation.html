@@ -10,30 +10,95 @@
     <link rel="stylesheet" href="./css/navigation-ui.css">
 </head>
 <body>
-    <nav class="container">
-        <div class="wrap">
-            <ul class="nav-grid" id="list">
-                <li class="nav-grid-items text-center active">
-                    <span class="lnr lnr-home icon"></span>
-                </li>
-                <li class="nav-grid-items text-center">
-                    <span class="lnr lnr-sun icon"></span>
-                </li>
-                <li class="nav-grid-items text-center">
-                    <span class="lnr lnr-bubble icon"></span>
-                </li>
-                <li class="nav-grid-items text-center">
-                    <span class="lnr lnr-heart icon"></span>
-                </li>
-                <li class="nav-grid-items text-center">
-                    <span class="lnr lnr-user icon"></span>
-                </li>
-                <li class="active-grid-circle">
-                    <div id="active-nav-grid-item" class="nav-circle grid-item-active"></div>
-                </li>
-            </ul>
+    <div id="wrap">
+        <div class="inner-wrap">
+            <header class="layout-header">
+                <div class="layout-header-logo">
+                    <a href="#"><img src="./resources/img/free-logo.png" alt="headerLogo"></a>
+                </div>
+                <h1 class="layout-header-title">Title</h1>
+                <div class="layout-header-gnb-selector">
+                    <div>
+                        <a class="gnb-selector-toggle gnb-btn-icon" onclick="GNBClick()"><img src="./resources/img/menu-icon.svg.png" alt="innerSelector"></a>
+                    </div>
+                </div>
+                <div class="layout-header-menu-selector">
+                    <div class="layout-design-guide-handler">
+                        <a href="#" class="layout-header-menu-text">삭제</a>
+                        <a href="#" class="layout-header-menu-icon"><img src="./resources/img/close-image.png" alt="headerMenu"></a>
+                        <a href="#" class="layout-header-menu-icon"><img src="./resources/img/close-image.png" alt="headerMenu"></a>
+                        <a href="#" class="layout-header-menu-icon"><img src="./resources/img/close-image.png" alt="headerMenu"></a>
+                    </div>
+                    <div class="layout-design-guide-user">
+                        <a href="#" class="user-toggle">
+                            <!-- <img src="./resources/img/user.png" alt="userProfile"> -->
+                            <span class="user-image" style="background-image: url('./resources/img/user.svg');">User</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="layout-header-gnb-area" style="display: none">
+                    <div class="layout-gnb-header">
+                        <button class=""><img src="./resources/img/close-image.png" alt="closeImage"></button>
+                    </div>
+                    <div class="layout-gnb-body">
+                        <nav class="layout-gnb-nav"></nav>
+                    </div>
+                    <div class="layout-gnb-footer">
+                        <a href="#" class="btn-logout"><img src="./resources/img/logout.svg" alt="stateLogout"></a>
+                    </div>
+                </div>
+            </header>
+            <main class="layout-main">
+                <div class="layout-main-menu-selector">
+                    <div class="layout-main-guide">
+                        <div class="layout-main-nav-guide">
+                            <nav class="container">
+                                <div class="wrap">
+                                    <ul class="nav-grid" id="list">
+                                        <li class="nav-grid-items text-center active">
+                                            <span class="lnr lnr-home icon"></span>
+                                        </li>
+                                        <li class="nav-grid-items text-center">
+                                            <span class="lnr lnr-sun icon"></span>
+                                        </li>
+                                        <li class="nav-grid-items text-center">
+                                            <span class="lnr lnr-bubble icon"></span>
+                                        </li>
+                                        <li class="nav-grid-items text-center">
+                                            <span class="lnr lnr-heart icon"></span>
+                                        </li>
+                                        <li class="nav-grid-items text-center">
+                                            <span class="lnr lnr-user icon"></span>
+                                        </li>
+                                        <li class="active-grid-circle">
+                                            <div id="active-nav-grid-item" class="nav-circle grid-item-active"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="layout-guide-container">1</div>
+                        <div class="layout-guide-container">2</div>
+                        <div class="layout-guide-container">3</div>
+                        <div class="layout-guide-container">4</div>
+                        <div class="layout-guide-container">5</div>
+                        <div class="layout-guide-container">6</div>
+                        <div class="layout-guide-container">7</div>
+                        <div class="layout-guide-container">8</div>
+                        <div class="layout-guide-container">9</div>
+                        <div class="layout-guide-container">10</div>
+                    </div>
+                </div>
+            </main>
+            <footer class="layout-footer">
+                Footer
+            </footer>
+            <div class="layout-bottom">
+                Bottom Text
+            </div>
         </div>
-    </nav>
+    </div>
+    
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     <script src="./js/navigation-ui.js"></script>
