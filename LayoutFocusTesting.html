@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/LayoutFocusTesting.css">
+</head>
+<body>
+    <h1>The option element</h1>
+<!--     
+    <div class="custom-select" style="width:200px;">
+        <select>
+          <option value="0">Select car:</option>
+          <option value="1">Audi</option>
+          <option value="2">BMW</option>
+          <option value="3">Citroen</option>
+          <option value="4">Ford</option>
+          <option value="5">Honda</option>
+          <option value="6">Jaguar</option>
+          <option value="7">Land Rover</option>
+          <option value="8">Mercedes</option>
+          <option value="9">Mini</option>
+          <option value="10">Nissan</option>
+          <option value="11">Toyota</option>
+          <option value="12">Volvo</option>
+        </select>
+      </div> -->
+    <!-- <label for="cars">Choose a car:</label> -->
+
+    <select id="cars" >
+        <option value="default" class="default-check" style="display: block;" ><p onclick="checkClick()">Choose a car:</p></option>
+        <option value="volvo" class="default-check">Volvo</option>
+        <option value="saab" class="default-check">Saab</option>
+        <option value="opel" class="default-check">Opel</option>
+        <option value="audi" class="default-check">Audi</option>
+    </select>
+    <!-- <select id="cars">
+        <option style="display:none;" selected>Select language</option>
+        <option>Option 1</option>
+        <option>Option 2</option>
+    </select> -->
+    <!-- <script src="./js/style.js"></script> -->
+
+    <script>
+        var idValue = document.getElementById("cars");
+        var defaultValue = document.querySelector(".default p");
+        // console.log(defaultValue.style.display);
+        
+        if(idValue.style.display === "block") {
+            if(defaultValue.style.display === "block"){
+                defaultValue.style.defaultValue = "none";
+            } else {
+                defaultValue.style.defaultValue = "block";
+            }
+        }
+    </script>
+</body>
+</html>

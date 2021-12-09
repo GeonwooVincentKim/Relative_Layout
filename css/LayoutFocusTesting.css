@@ -1,0 +1,14 @@
+*{margin: 0 auto; padding: 0;}
+h1 {align-items: center; justify-content: center; text-align: center; font-size: 20px;}
+
+/* .custom-select {position: relative; font-family: 'Arial';}
+.custom-select select {display: none;} */
+
+/* #cars:focus {background-color: aqua;} */
+#cars:focus-visible {color: white;}
+.default-check {color: black;}
+.default-check:focus-visible {display: block; background: aqua;}
+p:focus {color: red;}
+
+/* #cars:focus .default p {display: none;} */
+/* .cars:focus  */
