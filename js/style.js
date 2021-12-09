@@ -19,19 +19,16 @@ function GNBClick(){
 
 
 function checkClick() {
-    // var idValue = document.getElementById("cars");
-    // var defaultValue = document.querySelector(".default p");
+    var idValue = document.getElementById("cars");
+    var defaultValue = document.querySelector(".default p");
     
-    // console.log(defaultValue.style.display);
+    console.log(defaultValue.style.display);
     
-    // if(idValue.style.display === "block") {
-    //     if(defaultValue.style.display === "block"){
-    //         defaultValue.style.defaultValue = "none";
-    //     } else {
-    //         defaultValue.style.defaultValue = "block";
-    //     }
-    // }
-    // if(defaultValue.style.display === "block") {
-    //     defaultValue.style.display = "none";
-    // }
-}   
+    if(idValue.style.display === "block") {
+        if(defaultValue.style.display === "block"){
+            defaultValue.style.defaultValue = "none";
+        } else {
+            defaultValue.style.defaultValue = "block";
+        }
+    }
+}
