@@ -1,0 +1,5 @@
+.card {display: inline-block; width: 100px; height: 100px; border: 3px solid #dedede; margin-right: 20px; margin-bottom: 20px; transition: transfrom 0.8s;}
+.c1 {background: skyblue;}
+.c2 {background: pink;}
+.c3 {background: skyblue;}
+.flipped {background: orange;}
