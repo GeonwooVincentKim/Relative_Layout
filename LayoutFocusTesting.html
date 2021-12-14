@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/LayoutFocusTesting.css">
 </head>
 <body>
@@ -31,7 +31,7 @@
     <!-- <label for="cars">Choose a car:</label> -->
 
     <select id="cars" >
-        <option value="default" class="default-check" style="display: block;" ><p onclick="checkClick()">Choose a car:</p></option>
+        <option value="default" class="default-check" style="display: none;" ><p onclick="checkClick()">Choose a car:</p></option>
         <option value="volvo" class="default-check">Volvo</option>
         <option value="saab" class="default-check">Saab</option>
         <option value="opel" class="default-check">Opel</option>
@@ -43,6 +43,15 @@
         <option>Option 2</option>
     </select> -->
     <!-- <script src="./js/style.js"></script> -->
+    <div class="selectbox">
+        <label for="ex_select">국적선택</label>
+        <select id="ex_select">
+            <option selected>국적선택</option>
+            <option>한국</option>
+            <option>일본</option>
+            <option>중국</option>
+        </select>
+    </div>
 
     <script>
         var idValue = document.getElementById("cars");
@@ -56,6 +65,19 @@
                 defaultValue.style.defaultValue = "block";
             }
         }
+
+        $(document).ready(function () {
+            var selectTarget = $('.selectbox select');
+            selectTarget.change(function () {
+                var select_name = $(this)
+                    .children('option:selected')
+                    .text();
+                $(this)
+                    .siblings('label')
+                    .text(select_name);
+            });
+        });
+        
     </script>
 </body>
 </html>
