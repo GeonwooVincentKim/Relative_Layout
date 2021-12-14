@@ -12,3 +12,56 @@ p:focus {color: red;}
 
 /* #cars:focus .default p {display: none;} */
 /* .cars:focus  */
+
+.where {
+    display: block;
+    margin: 25px 15px;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+    font-family: verdana;
+    font-style: italic;
+}
+
+.selectbox {
+    position: relative;
+    width: 200px;
+    border: 1px solid #999;
+    z-index: 1;
+}
+
+.selectbox:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 0;
+    height: 0;
+    margin-top: -1px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+}
+
+.selectbox label {
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    padding: 0.8em 0.5em;
+    color: #999;
+    z-index: -1;
+}
+
+.selectbox select {
+    width: 100%;
+    height: auto;
+    line-height: normal;
+    font-family: inherit;
+    padding: 0.8em 0.5em;
+    border: 0;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
