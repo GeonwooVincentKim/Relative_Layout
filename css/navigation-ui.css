@@ -14,6 +14,14 @@ body {-webkit-overflow-scrolling: touch;}
 @media (max-width: 720px) {
     .layout-header {width: 100%;}
 }
+@media (max-width: 414px){
+    .layout-header {height: 112px; padding-left: 24px; padding-right: 24px; padding-top: 56px;}
+    .layout-header:before {display: none;}
+    .layout-header:after {height: 112px;}
+    .layout-header .layout-header-logo {top: 13px;}
+    .layout-header .gnb-selector-toggle {top: -56px;}
+    .layout-header-gnb-selector, .layout-header-menu-selector {top: 56px;}
+}
 .layout-main {width: 100%;}
 .layout-footer {width: 100%;}
 .layout-bottom {width: 100%;}
