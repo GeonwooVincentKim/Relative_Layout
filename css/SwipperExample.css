@@ -1,7 +1,10 @@
-html, body {position: relative; height: 100%;}
+html, body {position: relative; height: auto;}
 body {background: #eee; margin: 0; padding: 0;}
-.swiper-container {width: 100%; height: 100%;}
-.swiper-slide {text-align: center; font-size: 18px; background: #fff; display: flex; justify-content: center; align-items: center;}
+.swiper-container {width: 500px; height: auto; margin-left: 15%; margin-top: 10%; background: #fff;}
+/* .swiper-container {position: relative; height: 100%; width: 720px; margin: 0 auto;} */
+.swiper-slide {text-align: center; font-size: 18px; display: flex; justify-content: center; top: 50px; align-items: center;}
+/* .swiper-container-horizontal >.swiper-pagination-bullets {padding-top: 20px !important;} */
+.swiper-pagination {position: relative; height: auto; margin-top: 300px; }
 .swiper-pagination-bullet {width: 12px; height: 12px; background: transparent; border: 1px solid pink; opacity: 1;}
 /* .swiper-pagination-bullet-active {width: 40px; transition: width .5s; border-radius: 5px; background: pink; border: 1px solid transparent;} */
 .swiper-pagination-bullet-active {width: 40px; border-radius: 5px; background: pink; border: 1px solid transparent;}
