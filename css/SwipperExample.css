@@ -5,7 +5,11 @@ body {background: #eee; margin: 0; padding: 0;}
 .swiper-slide {text-align: center; font-size: 18px; display: flex; justify-content: center; top: 50px; align-items: center;}
 /* .swiper-container-horizontal >.swiper-pagination-bullets {padding-top: 20px !important;} */
 /* .swiper-pagination {position: relative; height: auto; margin-top: 300px; margin-bottom: 50px;} */
-.swiper-pagination {position: relative; height: auto; margin-bottom: 50px;}
-.swiper-pagination-bullet {width: 12px; height: 12px; background: transparent; border: 1px solid pink; opacity: 1;}
+/* .swiper-button-next, .swiper-button-prev {position: relative; height: auto;} */
+/* .swiper-button-next {} */
+/* .swiper-pagination {position: relative; z-index: 5; top: 20px;} */
+.swiper-pagination {min-width: 100%; margin-left: -17.5%; margin-top: 1%; justify-content: center;}
+/* .swiper-pagination {position: relative; height: auto; margin-bottom: 75px; display: flex; justify-content: center; top: 30px;} */
+.swiper-pagination-bullet {width: 12px; height: 12px; background: transparent; border: 1px solid pink; opacity: 1; justify-content: space-between;}
 /* .swiper-pagination-bullet-active {width: 40px; transition: width .5s; border-radius: 5px; background: pink; border: 1px solid transparent;} */
 .swiper-pagination-bullet-active {width: 40px; border-radius: 5px; background: pink; border: 1px solid transparent;}
