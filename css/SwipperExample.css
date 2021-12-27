@@ -3,6 +3,8 @@ body {background: #eee; margin: 0; padding: 0;}
 .swiper-container {width: 500px; height: 500px; margin-left: 15%; margin-top: 10%; background: #fff;}
 /* .swiper-container {position: relative; height: 100%; width: 720px; margin: 0 auto;} */
 .swiper-slide {text-align: center; font-size: 18px; display: flex; justify-content: center; top: 50px; align-items: center;}
+.second-slide {padding-top: 20%; background: #fff;}
+.second-slide:active {background: #fff;}
 /* .swiper-container-horizontal >.swiper-pagination-bullets {padding-top: 20px !important;} */
 /* .swiper-pagination {position: relative; height: auto; margin-top: 300px; margin-bottom: 50px;} */
 /* .swiper-button-next, .swiper-button-prev {position: relative; height: auto;} */
