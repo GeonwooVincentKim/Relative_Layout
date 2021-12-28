@@ -12,16 +12,21 @@ body {background: #eee; margin: 0; padding: 0;}
 /* .swiper-pagination {position: relative; z-index: 5; top: 20px;} */
 /* .swiper-button-next, .swiper-button-prev {color: pink !important;} */
 /* .swiper-container .swiper-button-next, .swiper-container .swiper-button-prev {position: absolute; width: 100px; height: 100px; background: url(/Project/Publishing/Layout_Testing/resources/img/icon-location.png) no-repeat; background-size: 50% auto; background-position: center;} */
-.swiper-container .swiper-button-next, .swiper-container .swiper-button-prev {margin: 0; width: 100px; height: 100px; background-color: transparent; border-radius: 0;}
+/* Static Location (Before Merge new-master into Master) */
+.swiper-button-next {position: absolute; right: 38%; width: 100px; height: 100px; background: url(/Project/Publishing/Layout_Testing/resources/img/icon-location.png) no-repeat; background-size: 50% auto; background-position: center; transform: rotate(180deg);}
+.swiper-button-prev {position: absolute; width: 100px; height: 100px; background: url(/Project/Publishing/Layout_Testing/resources/img/icon-location.png) no-repeat; background-size: 50% auto; background-position: center;}
+
+/* Dynamic Location (After Merged new-master into Master) */
+/* .swiper-container .swiper-button-next, .swiper-container .swiper-button-prev {margin: 0; width: 100px; height: 100px; background-color: transparent; border-radius: 0;}
 .swiper-container .swiper-button-next {right: -80px;}
 .swiper-container .swiper-button-prev {left: -80px;}
 .swiper-container .swiper-button-prev:before, .swiper-contaioner .swiper-button-next:before {
     content: ''; position: absolute; left: 0; top: 0; width: inherit; height: inherit; background: url(/Project/Publishing/Layout_Testing/resources/img/icon-location.png) no-repeat;
 }
-.swiper-contaienr .swiper-button-next:before {transform: rotate(180deg)}
-/* .swiper-container .swiper-button-next {transform: rotate(-180deg);} */
-
+.swiper-contaienr .swiper-button-next:before {transform: rotate(180deg)} */
+/* .swiper-container .swiper-button-next {transform: rotate(-180deg);} *
 /* .swiper-button-prev {position: absolute; width: 100px; height: 100px; background: url(/Project/Publishing/Layout_Testing/resources/img/icon-location.png) no-repeat; background-size: 50% auto; background-position: center;} */
+
 .swiper-button-next::after, .swiper-button-prev::after {display: none;}
 .swiper-pagination {min-width: 100%; margin-left: -17.5%; margin-top: 1%; justify-content: center;}
 /* .swiper-pagination {position: relative; height: auto; margin-bottom: 75px; display: flex; justify-content: center; top: 30px;} */
