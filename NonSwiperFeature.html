@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
     <link rel="stylesheet" href="./css/NonSwiperFeature.css">
     <script src="./js/NonSwiperFeature.js"></script>
+
 </head>
 <body>
-    <main>
-        <div class="swiper">
-            <div class="swiper-wrapper">
-                <div class="slider" style="background-color: #000;"></div>
-                <div class="slider" style="background-color: #777;"></div>
-                <div class="slider" style="background-color: #262626;"></div>
-            </div>
-    
-            <div class="swiper-paging">
-                <a href="#" class="selected">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-            </div>
+    <div class="demnodey-swiper">
+        <div class="demnodey-wrapper">
+            <div class="demnodey-slider" id="slider-img-1" style="background-color: #000;"></div>
+            <div class="demnodey-slider" id="slider-img-2" style="background-color: #777;"></div>
+            <div class="demnodey-slider" id="slider-img-3" style="background-color: #262626;"></div>
         </div>
-    </main>
+        
+        <div class="swiper-paging">
+            <a idx='1' class="selected">1</a>
+            <a idx='2'>2</a>
+            <a idx='3'>3</a>
+            <!-- <span idx='1' class="bullet active"></span>
+            <span idx='2' class="bullet"></span>
+            <span idx='3' class="bullet"></span> -->
+        </div>
+        
+    </div>
 </body>
 </html>

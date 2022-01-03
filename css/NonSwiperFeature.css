@@ -1,10 +1,52 @@
-*{margin: 0 auto; padding: 0;}
-/* html {width: 100%;} */
-main {display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #fff;}
-.swiper {padding: 250px; display: table; overflow: hidden; }
-.swiper-wrapper {display: table; position: absolute; width: 750px; height: 350px;}
+/* *{margin: 0 auto; padding: 0;}
+html {width: 100%;}
+body {position: relative; height: 100%;}
+main {position: relative; height: 900px; display: flex; background-color: #fff;}
+.swiper {display: table; height: 100%; overflow: hidden;}
+.swiper-wrapper {display: table;  width: 1500px; height: 100%; display: flex; align-items: center; justify-content: center;}
+.swiper-wrapper .slider {display: table-cell; width: 750px; height: 350px;}
 
 .swiper-paging {display: flex; align-self: bottom; white-space: nowrap;}
 .swiper-paging a {width: 8px; height: 6px; border-radius: 3px; font-size: 0; line-height: 0; opacity: 1; background-color: #959595; transition: width .25s cubic-bezier(0.0, 0.0, 0.2, 1);} 
 .swiper-paging a + a {margin-left: 8px;}
 .swiper-paging .selected {width: 20px; background-color: #333 !important; border-color: #000; pointer-events: none;}
+ */
+ .demnodey-swiper {
+	display: table; 
+	position: relative;
+	width: 500px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.demnodey-wrapper { 
+	display: table; 
+	position: absolute;
+	width: 1500px;
+	transition: all .8s ease;
+}
+
+.demnodey-wrapper .demnodey-slider {
+	display: table-cell;
+	width: 500px;
+	height: 300px;
+}
+
+/* .demnodey-pagination {position: absolute; text-align:center;bottom: 10px; width: 100%} */
+
+.swiper-paging {position: absolute; text-align: center; bottom: 10px; width: 100%;}
+
+.swiper-paging a {display: inline-block; width: 8px; height: 6px; border-radius: 3px; font-size: 0; line-height: 0; opacity: 1; background-color: #ffffff; transition: width .25s cubic-bezier(0.0, 0.0, 0.2, 1);} 
+.swiper-paging a + a {margin-left: 8px;}
+.swiper-paging .selected {width: 20px; background-color: #ff822e !important; border-color: #f44233; pointer-events: none;}
+ 
+/* .swiper-paging .bullet {display: inline-block; width: 10px; height: 10px; background-color: #fff; border: 2px solid #fff; border-radius: 50%; margin: 0 2px; cursor: pointer;}
+.swiper-paging .bullet.active {background-color: #ff822e;} */
+
+/* .swiper-paging {display: flex; align-self: bottom; white-space: nowrap;} */
+/* .swiper-paging {display: flex; align-self: bottom; white-space: nowrap;}
+.swiper-paging a {display: inline-block; width: 8px; height: 6px; border-radius: 3px; font-size: 0; line-height: 0; opacity: 1; background-color: #ffffff; transition: width .25s cubic-bezier(0.0, 0.0, 0.2, 1);} 
+.swiper-paging a + a {margin-left: 8px;}
+.swiper-paging .selected {width: 20px; background-color: #ff822e !important; border-color: #f44233; pointer-events: none;}
+  */
