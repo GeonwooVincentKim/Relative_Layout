@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      .date_empty:before {
+        content: attr(data-placeholder);
+        width: calc(100% - 42px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <input
+      type="date"
+      class="date_empty placeholder-date"
+      style="width: 200px"
+      data-placeholder="날짜 입력"
+    />
+    <script>
+      $("input[type=date].placeholder-date").on("change", (e) => {
+        const target = $(e.target);
+        if (target.val() == "") target.addClass("date_empty");
+        else target.removeClass("date_empty");
+      });
+    </script>
+  </body>
+</html>
