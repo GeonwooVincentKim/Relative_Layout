@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Intro</title>
+  </head>
+  <body>
+    <div id="app-vanilla"></div>
+    <p id="name"></p>
+    <input
+      type="text"
+      class="inputText"
+      oninput="inputP.innerHTML = inputValue.value"
+    />
+    <p id="inputText"></p>
+
+    <script>
+      const nameP = document.getElementById("name");
+      nameP.innerHTML = "Minha Koo";
+      const inputP = document.getElementById("inputText");
+      const inputValue = document.querySelector(".inputText");
+    </script>
+  </body>
+</html>
