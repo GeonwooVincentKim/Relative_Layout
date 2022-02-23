@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DataList Element</h1>
+    
+    <form action="/ResultAutoCompleteTest.html" method="get">
+        <!-- <label for="browser">Choose your browser from your list : </label> -->
+        <input type="text" list="browsers" name="browser" id="browser" class="check-browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="FireFox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+    </form>
+
+    <p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+</body>
+</html>

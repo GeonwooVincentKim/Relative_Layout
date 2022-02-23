@@ -1,0 +1,2 @@
+input::-webkit-calendar-picker-indicator {display: none !important;}
+input::-webkit-calendar-picker-indicator:hover {display: none  !important}
