@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/AutoCompleteExample.js"></script>
+    <link rel="stylesheet" href="./css/AutoCompleteExample.css">
+</head>
+<body>
+    <div class="layout-general">
+        <h1>아무거나 입력하세요.</h1>
+        <div class="flex--input">
+            <input type="text" class="inner-grid-input" list="menu-list" onclick="toggleIcon('.inner-grid-input', '.menu-info')" onkeyup="getValue()">
+        </div>
+        <ul style="display: none;" class="menu-info">
+            <li class="search-selected">
+                <p class="state-title">하노이 (HAN - 노이바이 국제공항)</p>
+                <span class="container-color-1">베트남</span>
+            </li>
+            <li>
+                <p class="state-title">다낭 (DAD - 다낭 국제공항)</p>
+                <span class="container-color-1">베트남</span>
+            </li>
+            <li>
+                <p class="state-title">푸꾸옥 (PQC - 푸꾸욱 국제공항)</p>
+                <span class="container-color-1">베트남</span>
+            </li>
+            <li>
+                <p class="state-title">다랏 (DLI - 리엔 쿠엉)</p>
+                <span class="container-color-1">베트남</span>
+            </li>
+            <li>
+                <p class="state-title">후에 (HUI - 푸바이 국제공항)</p>
+                <span class="container-color-1">베트남</span>
+            </li>
+            <li>
+                <p class="state-title">하이퐁 (HPH - 캇비 국제공항)</p>
+                <span class="container-color-1">베트남</span>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
