@@ -6,19 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="./css/AutoComplete.css">
+    <link rel="stylesheet" href="./css/AutoCompleteTest.css">
+    <script src="./js/CountryList.js"></script>
+    <!-- <script src="./js/AutoCompleteTest.js"></script> -->
+    <!-- <link rel="stylesheet" href="./css/AutoComplete.css"> -->
     <!-- <script src="./js/AutoComplete.js"></script> -->
-    <script>
+    <!-- <script>
         const autoCompleteJS = new autoComplete({ config });
-    </script>
+    </script> -->
     <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/autoComplete.min.js"></script>
 </head>
 <body>
-    <form autocomplete="off" action="/action_page.php">
-        <div class="autocomplete" style="width:300px;">
-          <input id="myInput" type="text" name="myCountry" placeholder="Country">
-        </div>
-        <input type="submit">
-      </form>
+  <h2>Autocomplete</h2>
+  <p>Start typing : </p>
+
+  <form autocomplete="off" action="./ResultAutoCompleteTest.html">
+      <div class="autocomplete" style="width:300px;">        
+          <input id="myInput" type="text" name="myCountry" placeholder="Country" onclick="autocomplete(document.getElementById('myInput'), countries);">
+      </div>
+      <input type="submit">
+  </form>
 </body>
 </html>
