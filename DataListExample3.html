@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        datalist {width: 1280px;}
         input::-webkit-calendar-picker-indicator {
             display: none !important;
         }
@@ -13,16 +14,7 @@
 </head>
 <body>
     <div class="form-field__control">
-        <input list="browsers">
-
-        <datalist id="browsers">
-            <option value="Internet Explorer">
-            <option value="Firefox">
-            <option value="Google Chrome">
-            <option value="Opera">
-            <option value="Safari">
-        </datalist>
-        <!-- <form>
+        <form>
             <label for="email">Email Address</label><br>
             <input type="search" name="email" id="email" autocomplete="off" list="good">
         </form>
@@ -51,7 +43,7 @@
                 <p class="state-title">하이퐁 (HPH - 캇비 국제공항)</p>
                 <span class="container-color-1">베트남</span>
             </option>
-        </datalist> -->
+        </datalist>
     </div>
 </body>
 </html>
